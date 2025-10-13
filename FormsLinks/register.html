@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register here</h1>
+    <form name="reguster" method="post" action="/register">  
+        <label for="name">Name</label>
+        <input type="text" name="uname" placeholder="enter user name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br>
+        <label for="mobile">MobNo</label>
+        <input type="number" name="mobile" placeholder="enter mobile no">
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" placeholder="enter dob">
+        <br><label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female" checked>Female
+        <br>
+        <label for="branch">Branch</label>
+        <select name="branch" >
+            <option value="1">cse</option>
+            <option value="2">ds</option>
+            <option value="3">it</option>
+            <option value="4">aiml</option>
+        </select>
+        <br>
+        <label for="sem">Semester</label>
+        <select name="branch" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" cols="30" rows="3" placeholder="enter your current address"></textarea>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
