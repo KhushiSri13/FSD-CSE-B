@@ -1,0 +1,21 @@
+{
+  "name": "book-parcel-app",
+  "version": "1.0.0",
+  "description": "my book using parcel",
+  "license": "ISC",
+  "author": "Khushi Srivastava",
+  "type": "commonjs",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
